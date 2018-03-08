@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CupState">
+        <attr name="state_small" format="boolean" />
+        <attr name="state_medium" format="boolean" />
+        <attr name="state_large" format="boolean" />
+    </declare-styleable>
+</resources>

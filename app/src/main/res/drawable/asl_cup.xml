@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/frame_0"
+        android:drawable="@drawable/vd_cup_small"
+        app:state_large="false"
+        app:state_medium="false" />
+
+    <item
+        android:id="@+id/frame_1"
+        android:drawable="@drawable/vd_cup_medium"
+        app:state_medium="true" />
+
+    <item
+        android:id="@+id/frame_2"
+        android:drawable="@drawable/vd_cup_large"
+        app:state_large="true" />
+
+    <transition
+        android:drawable="@drawable/avd_anim_cup_small_medium"
+        android:fromId="@id/frame_0"
+        android:toId="@id/frame_1" />
+
+    <transition
+        android:drawable="@drawable/avd_anim_cup_medium_large"
+        android:fromId="@id/frame_1"
+        android:toId="@id/frame_2" />
+
+    <transition
+        android:drawable="@drawable/avd_anim_cup_large_medium"
+        android:fromId="@id/frame_2"
+        android:toId="@id/frame_1" />
+
+    <transition
+        android:drawable="@drawable/avd_anim_cup_medium_small"
+        android:fromId="@id/frame_1"
+        android:toId="@id/frame_0" />
+
+</animated-selector>

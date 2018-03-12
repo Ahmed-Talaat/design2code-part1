@@ -1,6 +1,6 @@
 # Design2Code part1
 
-This repository is the implementation of the desgin concept mentioned [here in this article](https://goodpatch.com/blog-en/design2code-part-1/).
+This repository is the implementation of the desgin concept mentioned [here in this article](https://medium.com/goodpatch-berlin/design2code-part-1-b38151bb98fd).
 
 I discussed at this article the idea behind the concept along with how to implement it using VectorDrawables, AnimatedVectorDrawables, AnimatedStateListDrawables and more
 
